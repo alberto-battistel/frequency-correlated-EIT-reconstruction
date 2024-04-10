@@ -9,7 +9,7 @@ submitted to the [BMT 2024 conference in Stuttgart](https://www.vde.com/bmt).
 - Matlab (it was tested with Matlab R2023b on a linux machine)
 - [EIDORS 3.11 with Netgen 5.3](https://eidors3d.sourceforge.net/)
 - A matlab function called `init_eidors.mat` available to your path containing
-`run /path/to/eidors3d/startup.m` see [EIDORS first tutorial](https://eidors3d.sourceforge.net/tutorial/EIDORS_basics/one_line.shtml)
+`run /path/to/eidors3d/startup.m` (see [EIDORS first tutorial](https://eidors3d.sourceforge.net/tutorial/EIDORS_basics/one_line.shtml))
 
 
 ## How to use this repository
