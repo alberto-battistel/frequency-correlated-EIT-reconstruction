@@ -2,6 +2,11 @@
 *_.pdf
 *_.svg
 
+# figures for the article
+*.pdf
+*.svg
+*.fig
+
 # MATLAB-specific
 *.m~
 *.mat~
