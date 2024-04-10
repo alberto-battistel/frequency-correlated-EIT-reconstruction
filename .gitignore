@@ -1,0 +1,81 @@
+# my temp files
+*_.pdf
+*_.svg
+
+# MATLAB-specific
+*.m~
+*.mat~
+*.fig~
+*.mex*
+*.p~
+*.asv
+*.mexa64
+*.mexmaci64
+*.mexw64
+*.mexglx
+*.mexa64
+*.mexmaci
+*.mexw32
+*.mlx
+*.mlappinstall
+*.prj
+*.autosave
+
+# Simulink
+*.slx~
+*.mdl~
+*.slxp
+*.sldd
+
+# MATLAB cache and session files
+#*.mat
+*.simv
+*.sldd
+slprj/
+rtw/
+
+# Code generation
+_codegen/
+_eml/
+_slprj/
+
+# Simulink code generation
+slprj/
+
+# Stateflow
+sfprj/
+
+# MATLAB Report Generator
+#*.rpt
+#*.html
+#*.xml
+#*.pdf
+
+# Toolbox packaging
+*.mlpkginstall
+
+# Logs and diagnostics
+*.log
+*.trace
+
+# OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE files
+*.asv
+*.swp
+.tilda
+*~
+
+# Project files that should not be shared
+#myPersonalData.mat
+#secrets.txt
+
+# Exclude custom folders
+#data/
+#output/
