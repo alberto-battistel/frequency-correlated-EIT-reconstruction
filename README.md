@@ -22,3 +22,13 @@ Please note that the figures you will get need formatting to appear exactly as t
 
 
 ## Cite this
+
+    @software{Battistel_Frequency_correlated_EIT_2024,
+      author = {Battistel, Alberto and Wilkie, Jack and Chen, Rongqing and Möller, Knut},
+      license = {MIT},
+      month = apr,
+      title = {{Frequency correlated EIT reconstruction}},
+      version = {v1.0.0},
+      year = {2024}
+      doi = {10.5281/zenodo.10959765},
+    }
