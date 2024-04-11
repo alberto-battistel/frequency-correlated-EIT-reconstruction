@@ -38,3 +38,18 @@ license: MIT
 commit: f82f334
 version: v1.0.1
 date-released: '2024-04-11'
+preferred-citation:
+  type: misc
+  authors:
+  - given-names: Alberto
+    family-names: Battistel
+    orcid: 'https://orcid.org/0000-0002-6371-3580'
+  - given-names: Jack
+    family-names: Wilkie
+  - given-names: Rongqing
+    family-names: Chen
+  - given-names: Knut
+    family-names: Möller
+  doi: "10.5281/zenodo.10959765"
+  title: {Frequency Correlated {{EIT}} Reconstruction}
+  year: 2024
