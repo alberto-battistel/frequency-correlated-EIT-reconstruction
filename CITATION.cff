@@ -1,0 +1,55 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Frequency correlated EIT reconstruction
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: data
+authors:
+  - given-names: Alberto
+    family-names: Battistel
+    orcid: 'https://orcid.org/0000-0002-6371-3580'
+    affiliation: Institute of Technical Medicine (ITeM)
+  - given-names: Jack
+    family-names: Wilkie
+    affiliation: Institute of Technical Medicine (ITeM)
+  - given-names: Rongqing
+    family-names: Chen
+    affiliation: Institute of Technical Medicine (ITeM)
+  - given-names: Knut
+    family-names: Möller
+    affiliation: Institute of Technical Medicine (ITeM)
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.10959765
+    description: Release for BMT 2024
+abstract: >-
+  Matlab code for Electrical Impedance Tomography (EIT)
+  image reconstruction with frequency correlation.
+keywords:
+  - Electrical Impedance Tomography
+  - EIT
+  - Multifrequency
+  - Frequency correlation
+  - EIDORS
+license: MIT
+commit: f82f334
+version: v1.0.1
+date-released: '2024-04-11'
+preferred-citation:
+  type: misc
+  authors:
+  - given-names: Alberto
+    family-names: Battistel
+    orcid: 'https://orcid.org/0000-0002-6371-3580'
+  - given-names: Jack
+    family-names: Wilkie
+  - given-names: Rongqing
+    family-names: Chen
+  - given-names: Knut
+    family-names: Möller
+  doi: "10.5281/zenodo.10959765"
+  title: {Frequency Correlated {{EIT}} Reconstruction}
+  year: 2024
