@@ -208,6 +208,17 @@ sum(L2_tikhonov_pixels)
 sum(L2_multifreqs_pixels)
 
 %% Figure 3 of the article
+L2 = [L2_multifreqs_elem_data', L2_tikhonov_elem_data' ];
+
+figure(5)
+clf
+bar(L2)
+new_labels = {'100 kHz', '150 kHz', '220 kHz', '320 kHz', '460 kHz', '680 kHz', '1 MHz'};
+xticklabels(new_labels);
+ylabel('2-norm')
+legend('Proposed' ,'Standard')
+
+%% Figure 4 of the article
 
 l = zeros(size(points_2_see,1),1);
 elem_centers = interp_mesh(imgs_reference{1}.fwd_model, 0); % center of elements
@@ -216,7 +227,7 @@ for ii = 1:size(points_2_see,1)
     elem_centers(l(ii),:);
 end
 
-figure(5)
+figure(6)
 clf
 t = tiledlayout(2,1);
 t.TileSpacing = 'compact';
